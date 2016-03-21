@@ -6,7 +6,8 @@ class circuit{
         this.volts = Number(circuitstring.substring(circuitstring.indexOf('=')+1,circuitstring.length));
         this.circuit = circuitstring.substring(circuitstring.indexOf('<<')+2,circuitstring.indexOf('>>')-1);
     }
-
+    simpleSeries(){}
+    simpleParallel(){}
 }
 
 //Testing class methods
